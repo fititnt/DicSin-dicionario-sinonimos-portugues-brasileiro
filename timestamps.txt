@@ -1,0 +1,15 @@
+# git does not maintain midification timestamps. This file is just to report
+# the original datetimes from dicsin-br.oxt file
+
+$ ls -lt --color=auto --time-style=long-iso dicsin          
+total 15672
+drwx------ 2 fititnt fititnt     4096 2018-05-18 20:45 META-INF
+-rw-r--r-- 1 fititnt fititnt     2240 2010-05-28 10:54 description.xml
+-rw-r--r-- 1 fititnt fititnt   731610 2010-05-28 10:51 th_pt_BR.idx
+-rw-r--r-- 1 fititnt fititnt 15296516 2010-05-28 10:40 th_pt_BR.dat
+-rwxr-xr-x 1 fititnt fititnt      826 2009-05-12 00:01 Dictionaries.xcu
+-rwxr-xr-x 1 fititnt fititnt      442 2004-11-23 19:39 readme.txt
+
+$ ls -lt --color=auto --time-style=long-iso dicsin/META-INF 
+total 4
+-rwxr-xr-x 1 fititnt fititnt 365 2008-09-27 20:13 manifest.xml
